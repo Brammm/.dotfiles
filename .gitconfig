@@ -3,3 +3,8 @@
 	email = bram.vandersype@gmail.com
 [core]
 	excludesfile = ~/.gitignore
+[alias]
+    ci = commit
+    co = checkout
+    st = status
+    unstage = reset HEAD --
