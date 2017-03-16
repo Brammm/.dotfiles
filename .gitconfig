@@ -1,3 +1,5 @@
 [user]
 	name = Bram Van der Sype
 	email = bram.vandersype@gmail.com
+[core]
+	excludesfile = ~/.gitignore
