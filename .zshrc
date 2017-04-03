@@ -2,7 +2,7 @@
 export ZSH=/Users/bram/.oh-my-zsh
 
 # Theme https://github.com/robbyrussell/oh-my-zsh/wiki/themes
-ZSH_THEME="mh"
+ZSH_THEME="honukai"
 
 # Plugins https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
 plugins=(git osx composer vagrant)
