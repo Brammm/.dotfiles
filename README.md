@@ -2,11 +2,11 @@
 
 This is just my version of dotfiles, documenting what I need or like to work with.
  
- ## Installation
+## Installation
  
- - Install some stuff // TODO: document this further
- - `git submodule init`
- - Run `./install.sh`
- - Import `honukai.itermcolors` and update settings in iTerm
+```
+$ git submodule update --init
+$ ./install.sh
+```
  
- 
+Import `honukai-iterm-zsh/honukai.itermcolors` and update settings in iTerm (Profile > Colors).

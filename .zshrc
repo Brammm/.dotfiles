@@ -15,3 +15,7 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 
 # Z
 . /usr/local/etc/profile.d/z.sh
+
+# Aliases
+alias doco="docker-compose" 
+
