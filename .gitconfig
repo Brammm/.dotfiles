@@ -8,3 +8,5 @@
     co = checkout
     st = status
     unstage = reset HEAD --
+    su = submodule update
+
