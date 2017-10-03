@@ -7,7 +7,7 @@ export DOCKER_HUB_USERNAME="brammm"
 ZSH_THEME="honukai"
 
 # Plugins https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(composer git osx vagrant)
+plugins=(composer docker git osx vagrant)
 
 # Required
 source $ZSH/oh-my-zsh.sh
