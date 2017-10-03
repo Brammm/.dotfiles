@@ -27,3 +27,8 @@ alias la="ls -la"
 alias mysql.start="/usr/local/opt/mysql@5.6/bin/mysql.server start"
 alias mysql.stop="/usr/local/opt/mysql@5.6/bin/mysql.server stop"
 alias git_branch_clean='git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d'
+
+# Functions
+dmenv () {
+  eval "$(docker-machine env $1)"
+}
