@@ -70,5 +70,4 @@ PROMPT="
 %{$fg[white]%}in \
 %{$terminfo[bold]$fg[yellow]%}${current_dir}%{$reset_color%}\
 ${git_info}\
-${docker_info}
-%{$terminfo[bold]$fg[red]%}→ %{$reset_color%}"
+%{$terminfo[bold]$fg[red]%} → %{$reset_color%}"

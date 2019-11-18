@@ -3,6 +3,8 @@
 	email = bram.vandersype@gmail.com
 [core]
 	excludesfile = ~/.gitignore
+[format]
+	pretty = format:%Cgreen%h%Creset - %C(yellow)%cd%Creset - %s
 [alias]
     ci = commit
     co = checkout
