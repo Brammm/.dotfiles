@@ -3,12 +3,9 @@
 	email = bram.vandersype@gmail.com
 [core]
 	excludesfile = ~/.gitignore
+	autocrlf = input
 [format]
 	pretty = format:%Cgreen%h%Creset - %C(yellow)%cd%Creset - %s
-[alias]
-    ci = commit
-    co = checkout
-    st = status
-    unstage = reset HEAD --
-    su = submodule update
 
+[pull]
+	rebase = false
