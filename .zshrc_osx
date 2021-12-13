@@ -6,7 +6,7 @@ export PATH="/usr/local/sbin:$PATH"
 ZSH_THEME="honukai"
 
 # Plugins https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(composer docker docker-compose git osx vagrant alias-tips)
+plugins=(composer docker docker-compose git macos vagrant alias-tips)
 
 # Required
 source $ZSH/oh-my-zsh.sh
